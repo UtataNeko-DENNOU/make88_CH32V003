@@ -1,0 +1,637 @@
+(export 
+  (version D) 
+  (design 
+    (source C:\Users\user\Documents\kicad\make55_ch552t_led\\\make22_ATtiny202.sch) 
+    (date "2023/04/08 16:12:49") 
+    (tool "Eeschema (5.1.10)-1") 
+    (sheet 
+      (number 1) 
+      (name /) 
+      (tstamps /) 
+      (title_block 
+        (title) 
+        (company) 
+        (rev) 
+        (date) 
+        (source make88_CH32V003_matrix_LED.sch) 
+        (comment 
+          (number 1) 
+          (value "")) 
+        (comment 
+          (number 2) 
+          (value "")) 
+        (comment 
+          (number 3) 
+          (value "")) 
+        (comment 
+          (number 4) 
+          (value ""))))) 
+  (components 
+    (comp 
+      (ref U1) 
+      (value ATtiny202-SS) 
+      (footprint Package_SO:SOIC-8_3.9x4.9mm_P1.27mm) 
+      (datasheet http://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny202-402-AVR-MCU-with-Core-Independent-Peripherals_and-picoPower-40001969A.pdf) 
+      (libsource 
+        (lib MCU_Microchip_ATtiny) 
+        (part ATtiny202-SS) 
+        (description "20MHz, 2kB Flash, 128B SRAM, 64B EEPROM, SOIC-8")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 642E07F6)) 
+    (comp 
+      (ref BT1) 
+      (value Battery_Cell) 
+      (footprint Battery:BatteryHolder_ComfortableElectronic_CH273-2450_1x2450) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part Battery_Cell) 
+        (description "Single-cell battery")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 642E14EA)) 
+    (comp 
+      (ref JUPDI1) 
+      (value Conn_01x03) 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x03) 
+        (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 642E21E5)) 
+    (comp 
+      (ref R1) 
+      (value 4.7k) 
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 642E4B78)) 
+    (comp 
+      (ref JI2C1) 
+      (value Conn_01x04) 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x04) 
+        (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 642E8A0F)) 
+    (comp 
+      (ref JSPI1) 
+      (value Conn_01x06) 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x06) 
+        (description "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 642EDD6D)) 
+    (comp 
+      (ref J1WIRED1) 
+      (value Conn_01x03) 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x03) 
+        (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 642EFC02)) 
+    (comp 
+      (ref JPSSEL1) 
+      (value Conn_01x03) 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x03) 
+        (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 642F911B)) 
+    (comp 
+      (ref C1) 
+      (value C) 
+      (footprint Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 642FC39F)) 
+    (comp 
+      (ref JDCDC1) 
+      (value Conn_01x03) 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x03) 
+        (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 64314509)) 
+    (comp 
+      (ref SW1) 
+      (value SW_Push) 
+      (footprint Button_Switch_THT:SW_PUSH_6mm) 
+      (datasheet ~) 
+      (libsource 
+        (lib Switch) 
+        (part SW_Push) 
+        (description "Push button switch, generic, two pins")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 643156AD)) 
+    (comp 
+      (ref C2) 
+      (value .1u) 
+      (footprint Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part C) 
+        (description "Unpolarized capacitor")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 64319ECB)) 
+    (comp 
+      (ref R2) 
+      (value 100K) 
+      (footprint Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R) 
+        (description Resistor)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6431FFB4)) 
+    (comp 
+      (ref JADCIN1) 
+      (value Conn_01x02) 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x02) 
+        (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6433A351))) 
+  (libparts 
+    (libpart 
+      (lib Connector_Generic) 
+      (part Conn_01x02) 
+      (description "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x02)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector_Generic) 
+      (part Conn_01x03) 
+      (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x03)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector_Generic) 
+      (part Conn_01x04) 
+      (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x04)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name Pin_4) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector_Generic) 
+      (part Conn_01x06) 
+      (description "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x06)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name Pin_4) 
+          (type passive)) 
+        (pin 
+          (num 5) 
+          (name Pin_5) 
+          (type passive)) 
+        (pin 
+          (num 6) 
+          (name Pin_6) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part Battery_Cell) 
+      (description "Single-cell battery") 
+      (docs ~) 
+      (fields 
+        (field 
+          (name Reference) BT) 
+        (field 
+          (name Value) Battery_Cell)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name +) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name -) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part C) 
+      (description "Unpolarized capacitor") 
+      (docs ~) 
+      (footprints 
+        (fp C_*)) 
+      (fields 
+        (field 
+          (name Reference) C) 
+        (field 
+          (name Value) C)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part R) 
+      (description Resistor) 
+      (docs ~) 
+      (footprints 
+        (fp R_*)) 
+      (fields 
+        (field 
+          (name Reference) R) 
+        (field 
+          (name Value) R)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib MCU_Microchip_ATtiny) 
+      (part ATtiny202-SS) 
+      (aliases 
+        (alias ATtiny402-SS) 
+        (alias ATtiny212-SS) 
+        (alias ATtiny412-SS)) 
+      (description "20MHz, 2kB Flash, 128B SRAM, 64B EEPROM, SOIC-8") 
+      (docs http://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny202-402-AVR-MCU-with-Core-Independent-Peripherals_and-picoPower-40001969A.pdf) 
+      (footprints 
+        (fp SOIC*3.9x4.9mm*P1.27mm*)) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) ATtiny202-SS) 
+        (field 
+          (name Footprint) Package_SO:SOIC-8_3.9x4.9mm_P1.27mm)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name VCC) 
+          (type power_in)) 
+        (pin 
+          (num 2) 
+          (name PA6) 
+          (type BiDi)) 
+        (pin 
+          (num 3) 
+          (name PA7) 
+          (type BiDi)) 
+        (pin 
+          (num 4) 
+          (name PA1) 
+          (type BiDi)) 
+        (pin 
+          (num 5) 
+          (name PA2) 
+          (type BiDi)) 
+        (pin 
+          (num 6) 
+          (name ~RESET~/PA0) 
+          (type BiDi)) 
+        (pin 
+          (num 7) 
+          (name PA3) 
+          (type BiDi)) 
+        (pin 
+          (num 8) 
+          (name GND) 
+          (type power_in)))) 
+    (libpart 
+      (lib Switch) 
+      (part SW_Push) 
+      (description "Push button switch, generic, two pins") 
+      (docs ~) 
+      (fields 
+        (field 
+          (name Reference) SW) 
+        (field 
+          (name Value) SW_Push)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name 1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name 2) 
+          (type passive))))) 
+  (libraries 
+    (library 
+      (logical Connector_Generic) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Connector_Generic.lib")) 
+    (library 
+      (logical Device) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Device.lib")) 
+    (library 
+      (logical MCU_Microchip_ATtiny) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/MCU_Microchip_ATtiny.lib")) 
+    (library 
+      (logical Switch) 
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Switch.lib"))) 
+  (nets 
+    (net 
+      (code 1) 
+      (name "Net-(JDCDC1-Pad2)") 
+      (node 
+        (ref JPSSEL1) 
+        (pin 3)) 
+      (node 
+        (ref JDCDC1) 
+        (pin 2))) 
+    (net 
+      (code 2) 
+      (name "Net-(BT1-Pad1)") 
+      (node 
+        (ref BT1) 
+        (pin 1)) 
+      (node 
+        (ref JDCDC1) 
+        (pin 3))) 
+    (net 
+      (code 3) 
+      (name /VDD5V) 
+      (node 
+        (ref R2) 
+        (pin 1)) 
+      (node 
+        (ref JI2C1) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 1)) 
+      (node 
+        (ref JSPI1) 
+        (pin 1)) 
+      (node 
+        (ref C1) 
+        (pin 1)) 
+      (node 
+        (ref JPSSEL1) 
+        (pin 2)) 
+      (node 
+        (ref J1WIRED1) 
+        (pin 1))) 
+    (net 
+      (code 4) 
+      (name /ADINPUT1) 
+      (node 
+        (ref JADCIN1) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 2))) 
+    (net 
+      (code 5) 
+      (name "Net-(C2-Pad1)") 
+      (node 
+        (ref C2) 
+        (pin 1)) 
+      (node 
+        (ref SW1) 
+        (pin 2)) 
+      (node 
+        (ref R2) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 3))) 
+    (net 
+      (code 6) 
+      (name "Net-(JSPI1-Pad2)") 
+      (node 
+        (ref JSPI1) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 6)) 
+      (node 
+        (ref R1) 
+        (pin 1))) 
+    (net 
+      (code 7) 
+      (name "Net-(JUPDI1-Pad2)") 
+      (node 
+        (ref R1) 
+        (pin 2)) 
+      (node 
+        (ref JUPDI1) 
+        (pin 2))) 
+    (net 
+      (code 8) 
+      (name "Net-(JSPI1-Pad5)") 
+      (node 
+        (ref JSPI1) 
+        (pin 5)) 
+      (node 
+        (ref U1) 
+        (pin 7))) 
+    (net 
+      (code 9) 
+      (name GND) 
+      (node 
+        (ref JUPDI1) 
+        (pin 1)) 
+      (node 
+        (ref U1) 
+        (pin 8)) 
+      (node 
+        (ref J1WIRED1) 
+        (pin 3)) 
+      (node 
+        (ref JDCDC1) 
+        (pin 1)) 
+      (node 
+        (ref BT1) 
+        (pin 2)) 
+      (node 
+        (ref SW1) 
+        (pin 1)) 
+      (node 
+        (ref JADCIN1) 
+        (pin 1)) 
+      (node 
+        (ref C2) 
+        (pin 2)) 
+      (node 
+        (ref C1) 
+        (pin 2)) 
+      (node 
+        (ref JI2C1) 
+        (pin 4)) 
+      (node 
+        (ref JSPI1) 
+        (pin 6))) 
+    (net 
+      (code 10) 
+      (name "Net-(JPSSEL1-Pad1)") 
+      (node 
+        (ref JPSSEL1) 
+        (pin 1)) 
+      (node 
+        (ref JUPDI1) 
+        (pin 3))) 
+    (net 
+      (code 11) 
+      (name "Net-(J1WIRED1-Pad2)") 
+      (node 
+        (ref JSPI1) 
+        (pin 3)) 
+      (node 
+        (ref J1WIRED1) 
+        (pin 2)) 
+      (node 
+        (ref JI2C1) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 4))) 
+    (net 
+      (code 12) 
+      (name "Net-(JI2C1-Pad3)") 
+      (node 
+        (ref U1) 
+        (pin 5)) 
+      (node 
+        (ref JSPI1) 
+        (pin 4)) 
+      (node 
+        (ref JI2C1) 
+        (pin 3)))))

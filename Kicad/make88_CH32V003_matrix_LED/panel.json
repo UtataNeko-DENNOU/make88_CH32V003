@@ -1,0 +1,28 @@
+{
+    "layout": {
+        "rows": "2",
+        "cols": "2"
+    },
+    "tabs": {
+        "type": "fixed",
+        "vwidth": "5mm",
+        "hwidth": "5mm"
+    },
+    "cuts": {
+        "type": "vcuts"
+    },
+    "framing": {
+        "type": "railstb",
+        "vspace": "0mm"
+    },
+    "tooling": {
+        "type": "4hole",
+        "hoffset": "2mm",
+        "voffset": "2.5mm"
+    },
+    "fiducials": {
+        "type": "4fid",
+        "hoffset": "5mm",
+        "voffset": "4mm"
+    }
+}
